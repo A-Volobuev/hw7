@@ -6,6 +6,12 @@
 @import'./components/modal-imput';
 @import'./components/unactive-buttons';
 
+// Подключаю изображения бг сюда
+$main-background-image: url(../images/bg.webp); 
+
+$modal-unactive-check: url(../images/modal-form/check-icon.svg);
+$modal-active-check: url(../images/modal-form/check-icon-active.svg);
+
 // ---------------------------------------------------------------Общие настройки---------------------------------------------------------------
 body{
     font-family: Roboto, sans-serif;
